@@ -6,9 +6,7 @@ on:
 jobs:
   build-twrp:
     runs-on: self-hosted   # nutzt deinen Runner "homeserver" in der Default-Gruppe
-    defaults:
-      run:
-        working-directory: _work  # dein Work-Folder
+    
 
     steps:
     - name: Checkout repository
